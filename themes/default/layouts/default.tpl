@@ -117,7 +117,9 @@
         {include file='modals/modal.empty.tpl'}
 
         {* Строим менюшки *}
-        {include file='commons/common.header_nav.tpl'}
+        {if Config::Get('view.header.nav')}
+      		    {include file='commons/common.header_nav.tpl'}
+      		{/if}
         {include file='commons/common.header_nav_pages.tpl'}
         {if Config::Get('view.header.banner')}
             {wgroup group="topbanner"}
