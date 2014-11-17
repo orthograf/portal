@@ -46,6 +46,7 @@ $config['head']['default']['css'] = array(
     '___path.frontend.dir___/libs/vendor/prettyphoto/css/prettyphoto.css',
     '___path.frontend.dir___/libs/vendor/jcrop/jquery.Jcrop.css',
     '___path.skin.dir___/themes/___view.theme___/css/custom.css',
+    '___path.skin.dir___/themes/___view.theme___/css/buttons.css',
 
     /* tinyMCE */
     '___path.skin.dir___/assets/css/tinymce.css'       => array(
