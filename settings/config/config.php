@@ -27,6 +27,13 @@ $config['view']['theme'] = 'default';
  */
 $config['view']['fix_menu'] = true;
 
+/**
+ * Показывать ли меню Первого уровня
+ *      - false (не показывать)
+ *      - true (показывать)
+ */
+$config['view']['header']['nav'] = false;
+
 
 /**
  * Показывать рейтинг топика всем
