@@ -2,7 +2,7 @@
  {* @licence     CC Attribution-ShareAlike   *}
 
 {if E::IsUser()}
-<div class="toolbar-button toolbar-user toolbar-menu-popover">
+<div class="btn-nav-toolbar btn-nav-toolbar-user toolbar-user toolbar-menu-popover">
     <div id="hidden-toolbar-user-content" style="display: none;">
         <ul class="toolbar-menu">
             <li><a href="{E::User()->getProfileUrl()}">
@@ -34,7 +34,7 @@
     <a href="#"
        onclick="return false;"
        data-toggle="popover"
-       class="toolbar-exit-button link link-light-gray"><span class="fa fa-user"></span></a>
+       class="toolbar-exit-button link link-light-gray"><i class="fa fa-user"></i></a>
 </div>
 {/if}
 
