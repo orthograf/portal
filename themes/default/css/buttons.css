@@ -21,12 +21,5 @@
 .toolbar div.btn-nav-toolbar > a.last { border: 1px solid rgb(143, 180, 187)!important; }
 .toolbar div.btn-nav-toolbar a:hover { border: 0px!important; }
 
-.btn-nav-toolbar-user { background-color: rgb(143, 180, 187); margin-bottom: 10px; }
-.btn-nav-toolbar-user:hover{ background-color: rgb(101, 149, 163); }
 .btn-nav-toolbar-user i { padding: 10px 12px 10px; }
-.btn-nav-toolbar-user a { border: 1px solid rgb(143, 180, 187)!important; }
-.btn-nav-toolbar-user a:hover { border: 0px!important; }
 
-.toolbar div.btn-nav-toolbar-user > a:last-child,
-.toolbar div.btn-nav-toolbar-user > a.last { border: 1px solid rgb(143, 180, 187)!important; }
-.toolbar div.btn-nav-toolbar-user a:hover { border: 0px!important; }
