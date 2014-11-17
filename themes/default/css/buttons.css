@@ -8,5 +8,9 @@
  */
 
 .btn-nav { background-color: rgb(143, 180, 187); padding: 10px; }
-.btn-nav:hover{ background-color: rgb(101, 149, 163); }
+.btn-nav:hover { background-color: rgb(101, 149, 163); }
 .btn-nav i { color: #fff; }
+
+.btn-nav-toolbar { background-color: rgb(143, 180, 187); margin-bottom: 10px; }
+.btn-nav-toolbar:hover { background-color: rgb(101, 149, 163); }
+.btn-nav-toolbar i {  padding: 10px; color: #fff; }
