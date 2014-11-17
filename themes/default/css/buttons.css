@@ -1,0 +1,12 @@
+/*
+ * BUTTONS.CSS
+ *
+ */
+
+/* Classes for customization of logo image and text
+ * See tpls/commons/common.header_nav_pages.tpl
+ */
+
+.btn-nav { background-color: rgb(143, 180, 187); padding: 10px; }
+.btn-nav:hover{ background-color: rgb(101, 149, 163); }
+.btn-nav i { color: #fff; }
