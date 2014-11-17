@@ -2,7 +2,7 @@
  {* @licence     CC Attribution-ShareAlike   *}
 
 {if E::IsUser()}
-<div class="btn-nav-toolbar btn-nav-toolbar-user toolbar-user toolbar-menu-popover">
+<div class="toolbar-button toolbar-user toolbar-menu-popover">
     <div id="hidden-toolbar-user-content" style="display: none;">
         <ul class="toolbar-menu">
             <li><a href="{E::User()->getProfileUrl()}">
