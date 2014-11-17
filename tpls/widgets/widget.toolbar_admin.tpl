@@ -2,7 +2,7 @@
  {* @licence     CC Attribution-ShareAlike   *}
 
 {if E::IsAdmin()}
-    <div class="toolbar-admin toolbar-button">
+    <div class="toolbar-admin btn-nav-toolbar">
         <a href="{router page='admin'}" title="{$aLang.admin_title}" title="admin panel" target="_blank">
             <span class="fa fa-cogs"></span>
         </a>
