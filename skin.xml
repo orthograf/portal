@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <skin compatible="alto">
     <name>
-        <lang name="default">Experience</lang>
+        <lang name="default">Portal</lang>
     </name>
     <author>
         <lang name="default">Команда разрабюотчиков Alto CMS</lang>
     </author>
     <homepage>http://altocms.ru</homepage>
-    <version>1.0.3</version>
+    <version>1.0</version>
     <requires>
         <alto>
             <version>1.0.7</version>
