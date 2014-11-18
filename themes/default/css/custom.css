@@ -85,3 +85,8 @@
 .menu-level-3 li a {
   color: #fff;
 }
+
+.menu-level-2-container {
+  margin-top: -10px;
+  height: 55px;
+}
