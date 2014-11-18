@@ -127,6 +127,12 @@ body {
 
 }
 
+/* ------ TABLE ------ */
+
+.table-in {
+  margin-bottom: 0px;
+}
+
 /* ------ INDEX PANEL ------ */
 
 .index-panel {}
