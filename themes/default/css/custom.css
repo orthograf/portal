@@ -86,6 +86,11 @@ body {
   color: rgb(115, 155, 163);
 }
 
+.menu-level-2 li a i {
+  margin-right: 15px;
+  margin-left: -5px;
+}
+
 .menu-level-3-container {
   background-color: rgb(143, 180, 187);
   border-bottom: 0px;
