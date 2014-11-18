@@ -6,6 +6,10 @@
 /* Classes for customization of logo image and text
  * See tpls/commons/common.header_nav_pages.tpl
  */
+body {
+    background: rgb(241, 241, 241);
+}
+
 .logo-img {
     max-height: 64px;
 }
