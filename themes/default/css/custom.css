@@ -11,8 +11,13 @@ body {
 }
 
 .logo-img {
-    max-height: 64px;
+  max-height: 36px;
 }
+
+.menu-level-2 li.menu-level-2-logo a img {
+  margin-top: 0px;
+}
+
 .logo-name {
 
 }
