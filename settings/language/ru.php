@@ -71,6 +71,9 @@ return array(
     'talk_inbox_make_un_read' => 'Отметить как не прочитанное',
     'ex_blog_leave' => '<i class="fa fa-sign-out"></i>&nbsp;покинуть',
     'ex_blog_join' => '<i class="fa fa-sign-in"></i>&nbsp;вступить',
+    'your_login' => 'Ваш логин на сайте',
+    'add_name' = > 'вы можете указать свое имя',
+    'your_inscription' => 'Здесь может быть ваша подпись...',
 
 
 );
