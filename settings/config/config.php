@@ -57,8 +57,9 @@ $config['view']['show_rating'] = false;
  * например, так:
  *    $config['view']['header']['logo']['name'] = 'Это мой сайт';
  */
-$config['view']['header']['logo']['file'] = 'logo.png';
-//$config['view']['header']['logo']['url'] = 'http://site.com/logo.png';
+
+//$config['view']['header']['logo']['file'] = 'logo.png';
+$config['view']['header']['logo']['url'] = 'common/templates/skin/portal/assets/images/a.png';
 $config['view']['header']['logo']['name'] = Config::Get('view.name');
 
 
