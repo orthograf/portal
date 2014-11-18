@@ -122,6 +122,14 @@ body {
   box-shadow: none;
 }
 
+.panel-no-user { 
+  border-top: none;    
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-right: 1px solid rgb(226, 226, 226);
+  border-left: 1px solid rgb(226, 226, 226);
+  box-shadow: none;
+}
+
 .content .raised:after {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
