@@ -151,6 +151,8 @@ body {
 
 .index-panel {}
 
+.table-in { margin-bottom: 0px; }
+
 .td-hover { border-bottom: 2px solid #F7F7F7; }
 .td-hover a { color: #647788;text-transform: uppercase;text-decoration: none; }
 .td-hover:hover { margin-bottom: 0px;border-bottom: 2px solid; border-bottom-color: #DADADA; }
@@ -170,3 +172,8 @@ body {
 .td-hover-desc { line-height: 30px; }
 .td-hover-desc a { color: #d1d1d1; }
 .td-hover-desc a i { color: #afafaf; font-size: 11px; margin-left: 7px; }
+
+.tr-reorder { font-size: 12px;background-color: #F7F7F7;text-align: center; }
+.td-reorder { td-reorder" style="padding:0;border-top: none; }
+.td-reorder div { position: absolute; }
+.td-reorder i { color: #afafaf;font-size: 21px; padding: 3px 0px 0px 10px; }
