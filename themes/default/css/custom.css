@@ -82,6 +82,10 @@ body {
   height: 55px;
 }
 
+.menu-level-2 li.active a {
+  color: rgb(115, 155, 163);
+}
+
 .menu-level-3-container {
   background-color: rgb(143, 180, 187);
   border-bottom: 0px;
