@@ -41,16 +41,6 @@
 .btn-nav:hover{ background-color: rgb(101, 149, 163); }
 .btn-nav i { color: #fff; }
 
-.toolbar {
-  position: fixed;
-  right: 24px;
-  top: 187px;
-  width: 32px;
-  z-index: 1;
-}
-.toolbar > div.toolbar-button {
-  margin-bottom: 8px;
-}
 .toolbar .toolbar-menu-popover > a {
   border: 0px!important;
 }
@@ -60,18 +50,12 @@
   background: rgb(143, 180, 187);
   margin-right: 4px;
   border: 0px;
-  text-align: center;
   vertical-align: bottom;
-  font-size: 16px;
   color: #fff;
   padding: 6px 0 0 0;
   display: block;
-  border-bottom: 0;
-  background-image: none; 
-  background-image: none; 
-  background-repeat: none; 
+  background-image: none;
   filter: none;
-  background-color: rgb(143, 180, 187);
 }
 
 .toolbar div.toolbar-button > a:last-child, 
@@ -89,100 +73,3 @@
   filter: none;
   color: #fff;
 }
-.toolbar div.toolbar-button > a.next {
-  margin-left: 32px;
-}
-.toolbar-menu {
-  position: relative;
-  z-index: 10000;
-  padding: 4px 0;
-  margin: 0;
-  list-style: none;
-  font-size: 12px;
-  text-align: left;
-  background-clip: padding-box;
-  background-color: #2f92b7;
-  border-radius: 4px;
-}
-.toolbar-menu > li {
-  line-height: 30px;
-}
-.toolbar-menu > li.active {
-  background-color: #63c1e4;
-}
-.toolbar-menu > li.active a {
-  color: #ffffff;
-  background-color: #63c1e4;
-}
-.toolbar-menu > li.divider {
-  margin: 4px 0;
-  background-color: #ffffff;
-}
-.toolbar-menu > li > a {
-  display: block;
-  clear: both;
-  font-weight: normal;
-  white-space: nowrap;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 12px;
-  position: relative;
-  background-color: #2f92b7;
-  padding: 0 12px;
-}
-.toolbar-menu > li > a span:first-child {
-  display: inline-block;
-  width: 12px;
-  text-align: right;
-}
-.toolbar-menu > li > a span:last-child {
-  margin-left: 6px;
-}
-.toolbar-menu > li > a:hover {
-  color: #ffffff;
-  background-color: #63c1e4;
-}
-.toolbar-menu-popover > .popover {
-  width: 130px;
-  border: 0;
-  padding: 0;
-}
-.toolbar-menu-popover > .popover .arrow {
-  top: 16px;
-  right: -8px;
-}
-.toolbar-menu-popover > .popover .arrow:after {
-  border-left-color: #2f92b7;
-}
-.toolbar-menu-popover > .popover .popover-content {
-  padding: 0;
-}
-.toolbar-stream > .popover {
-  width: 238px;
-  border: 0;
-}
-.toolbar-stream > .popover .popover-content {
-  padding: 12px;
-}
-.toolbar-stream > .popover .panel {
-  margin-bottom: 0;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.toolbar-stream > .popover .panel-header {
-  border-bottom: 0;
-  margin-bottom: 0;
-}
-.toolbar-stream > .popover .panel-body {
-  padding: 8px 0;
-}
-.toolbar-stream > .popover .feed-comment:last-child {
-  padding-bottom: 0;
-}
-.toolbar-stream > .popover .arrow {
-  border: 0;
-  top: 26px;
-  right: -8px;
-}
-
