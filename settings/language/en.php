@@ -64,5 +64,8 @@ return array(
     'user_friend_add_cancelled'            => 'Is no longer a friend',
     'panel_br'                             => 'Divider',
     'settings_menu_tuning_short'           => 'Config',
+    'your_login' => 'Your username on the site',
+    'add_name' => 'you can enter your name',
+    'your_inscription' => 'Here can be your signature...',
 
 );
