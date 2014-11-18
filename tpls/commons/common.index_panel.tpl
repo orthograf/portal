@@ -13,13 +13,17 @@
 
 							{* Имя человека *}
 								<div class="user-name td-hover-un">
-									<div class="">
-										<span class="user-login">{E::User()->getProfileName()}</span>
-									</div>
+									<span class="user-login">
+									    {if E::User()->getProfileName()}{E::User()->getProfileName()}
+									            {else}
+									        {$aLang.your_login} {E::User()->getDisplayName()}
+								        {/if}
+								    </span> 
+								    <p><a href="{router page='settings'}profile/">{$aLang.add_name}</a></p>
 
 									{* Подпись "О себе" *}
 									<div class="user-full-name td-hover-desc">
-										{if E::User()->getProfileAbout()}{E::User()->getProfileAbout()}{else}Здесь может быть Ваша подпись...
+										{if E::User()->getProfileAbout()}{E::User()->getProfileAbout()}{else}{$aLang.your_inscription}
 										<a href="{router page='settings'}profile/"><i class="fa fa-pencil"></i></a>{/if}
 									</div>
 								</div>
