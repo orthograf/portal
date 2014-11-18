@@ -74,6 +74,15 @@ body {
   color: #fff;
 }
 
+.menu-level-2 {
+  height: 55px;
+}
+
+.menu-level-2 li.menu-level-2-logo {
+  line-height: 55px;
+  margin-right: 25px;
+}
+
 .menu-level-2-container {
   margin-top: -10px;
   height: 55px;
@@ -81,6 +90,11 @@ body {
 
 .menu-level-2 li.active a {
   color: rgb(115, 155, 163);
+}
+
+.menu-level-2 li a {
+  height: 55px;
+  line-height: 62px;
 }
 
 .menu-level-2 li a i {
