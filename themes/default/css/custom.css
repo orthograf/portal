@@ -123,4 +123,16 @@ body {
 .td-hover a:hover { color: #000!important; }
 .td-hover.active { background-color: #F7F7F7!important; border-bottom: 2px solid; border-bottom-color: rgb(143, 180, 187); }
 .td-hover.active a { color: #000!important; }
-
+.td-hover li a { color: #222; border-left: none; }
+.td-hover i { color: #B2B2B2; }
+.td-hover-button { margin: 0px; padding: 0px; background-color: #F7F7F7;left: 8px; }
+.td-hover-fm { padding: 12px 20px 12px;border-top: none; }
+.td-hover-fm i { padding-right: 7px;color: #B2B2B2;font-size: 14px; }
+.td-hover-fm strong { left: auto;margin-left: 5px; }
+.td-hover-td { padding: 0px!important;; border-top: none; }
+.td-hover-av { position: relative;float: left; padding: 15px 25px; }
+.td-hover-av img { border-radius: 50%; }
+.td-hover-un { padding: 26px 26px 0px 35px; }
+.td-hover-desc { line-height: 30px; }
+.td-hover-desc a { color: #d1d1d1; }
+.td-hover-desc a i { color: #afafaf; font-size: 11px; margin-left: 7px; }
