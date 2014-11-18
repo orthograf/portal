@@ -68,8 +68,19 @@
 .toolbar div.toolbar-button > a.active {
   background-color: rgb(101, 149, 163); 
   background-image: none;
-  background-image: none;
   background-repeat: none;
   filter: none;
   color: #fff;
+}
+
+.menu-level-3-container {
+  background-color: rgb(143, 180, 187);
+}
+
+.menu-level-3 li:before {
+color: #fff;
+}
+
+.menu-level-3 li a {
+color: #fff;
 }
