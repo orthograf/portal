@@ -10,6 +10,10 @@ body {
     background: rgb(241, 241, 241);
 }
 
+.content {
+  margin-top: 30px;
+}
+
 .logo-img {
     max-height: 64px;
 }
