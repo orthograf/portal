@@ -10,10 +10,6 @@ body {
     background: rgb(241, 241, 241);
 }
 
-.content {
-  margin-top: 30px;
-}
-
 .logo-img {
     max-height: 64px;
 }
@@ -37,6 +33,10 @@ body {
     .container {
         width: 1130px; /* 1100px - container + 30px */
     }
+}
+
+.content {
+  margin-top: 30px;
 }
 
 .search-nav  { padding: 7px; }
@@ -141,11 +141,6 @@ body {
 
 }
 
-/* ------ TABLE ------ */
-
-.table-in {
-  margin-bottom: 0px;
-}
 
 /* ------ INDEX PANEL ------ */
 
@@ -165,10 +160,12 @@ body {
 .td-hover-fm { padding: 12px 20px 12px;border-top: none; }
 .td-hover-fm i { padding-right: 7px;color: #B2B2B2;font-size: 14px; }
 .td-hover-fm strong { left: auto;margin-left: 5px; }
-.td-hover-td { padding: 0px!important;; border-top: none; }
+.td-hover-td { padding: 0px!important; border-top: none; }
 .td-hover-av { position: relative;float: left; padding: 15px 25px; }
-.td-hover-av img { border-radius: 50%; }
-.td-hover-un { padding: 26px 26px 0px 35px; }
+.td-hover-av img { border-radius: 50%; border: 5px solid rgb(143, 180, 187); }
+.td-hover-un { padding: 18px 0px 0px 0px; }
+.td-hover-un p { margin: 0; }
+.td-hover-un a { color: #afafaf; font-size: 11px; margin-left: 7px; }
 .td-hover-desc { line-height: 30px; }
 .td-hover-desc a { color: #d1d1d1; }
 .td-hover-desc a i { color: #afafaf; font-size: 11px; margin-left: 7px; }
