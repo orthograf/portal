@@ -68,22 +68,22 @@ $config['view']['menu']['main'] = array(
         'index' => array(
             'lang' => 'topic_title',
             'url' => Config::Get('path.root.url'),
-            'icon_class' => 'fa fa-file-text-o',
+            'icon_class' => 'fa fa-angle-right',
         ),
         'blogs' => array(
             'lang' => 'blogs',
             'url' => Router::GetPath('blogs'),
-            'icon_class' => 'fa fa-comment-o',
+            'icon_class' => 'fa fa-angle-right',
         ),
         'people' => array(
             'lang' => 'people',
             'url' => Router::GetPath('people'),
-            'icon_class' => 'fa fa-circle-o',
+            'icon_class' => 'fa fa-angle-right',
         ),
         'stream' => array(
             'lang' => 'stream_menu',
             'url' => Router::GetPath('stream'),
-            'icon_class' => 'fa fa-signal',
+            'icon_class' => 'fa fa-angle-right',
         ),
     ),
 );
