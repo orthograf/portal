@@ -116,6 +116,8 @@ body {
 }
 
 .panel {
+  border: 1px solid;
+  border-color: #E2E2E2;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
