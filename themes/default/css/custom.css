@@ -91,6 +91,19 @@ body {
 .comment-self *,
 .comment-new * { background-color: transparent!important; }
 
+/* ------ BLOCKQUOTE ------ */
+
+blockquote {
+	padding: 10px 43px;
+	margin: 0 0 10px;
+	font-size: 11px;
+	border-left: 2px solid #eeeeee;
+	font-style: italic;
+	background: url(../images/quote.png) 0 0 no-repeat;
+	text-align: justify;
+	color: #838383;
+}
+
 /* ------ TEXT ------ */
 
 .content .topic .topic-text {
