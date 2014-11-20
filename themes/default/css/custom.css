@@ -53,6 +53,42 @@ body {
 .btn-nav:hover{ background-color: rgb(101, 149, 163); }
 .btn-nav i { color: #fff; }
 
+/* ------ COMMENTS ------ */
+
+.alert-topic-show-comment {
+background-color: #FFFFFF;
+border: 1px solid;
+border-color: #EBEBEB;
+color: #595959;
+margin-bottom: 0;
+}
+
+.alert-topic-show-comment-i1 {
+margin: -23px 0px 0px 12px;
+position: absolute;
+padding: 0px;
+font-size: 24px;
+color: #FFFFFF;
+z-index: 1;
+}
+
+.alert-topic-show-comment-i2 {
+margin: -25px 0px 0px 12px;
+position: absolute;
+padding: 0px;
+font-size: 24px;
+color: #F0F0F0;
+}
+
+.alert-topic-show-comment span {
+float: left;
+}
+
+.comment-self *,
+.comment-new * {
+background-color: transparent!important;
+}
+
 .toolbar .toolbar-menu-popover > a {
   border: 0px!important;
 }
