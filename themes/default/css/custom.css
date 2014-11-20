@@ -91,6 +91,8 @@ body {
 .comment-self *,
 .comment-new * { background-color: transparent!important; }
 
+.topic-comment-controls { margin: 50px 40px 15px; }
+
 /* ------ BLOCKQUOTE ------ */
 
 blockquote {
