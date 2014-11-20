@@ -60,8 +60,7 @@ $config['view']['show_rating'] = false;
 
 //$config['view']['header']['logo']['file'] = 'logo.png';
 $config['view']['header']['logo']['url'] = 'common/templates/skin/portal/assets/images/a.png';
-//$config['view']['header']['logo']['name'] = Config::Get('view.name');
-$config['view']['header']['logo']['name'] = 'Templates <span class="logo-name-color"> for AltoCMS</span>';
+$config['view']['header']['logo']['name'] = Config::Get('view.name');
 
 
 // Пункты меню второго уровня
