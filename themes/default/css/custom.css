@@ -91,6 +91,12 @@ body {
 .comment-self *,
 .comment-new * { background-color: transparent!important; }
 
+/* ------ TEXT ------ */
+
+.content .topic .topic-text {
+	text-align: justify;
+}
+
 /* ------ TOOLBAR ------ */
 
 .toolbar .toolbar-menu-popover > a { border: 0px!important; }
