@@ -25,7 +25,7 @@ $config['view']['theme'] = 'default';
  *      - false (не использовать)
  *      - true (использовать)
  */
-$config['view']['fix_menu'] = true;
+$config['view']['fix_menu'] = false;
 
 /**
  * Показывать ли меню Первого уровня
