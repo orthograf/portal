@@ -15,11 +15,12 @@ body {
 }
 
 .menu-level-2 li.menu-level-2-logo a img {
-  margin-top: 0px;
+  margin-top: -9px;
 }
 
 .logo-name {
-
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 28px;
 }
 
 @media (min-width: 768px) {
