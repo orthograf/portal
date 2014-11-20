@@ -13,14 +13,13 @@
 
 							{* Имя человека *}
 								<div class="user-name td-hover-un">
-								    {if E::User()->getProfileName()}
-										<span class="user-login">{E::User()->getProfileName()}</span>
+									<span class="user-login {if !E::User()->getProfileName()}user-no-login{/if}">
+									    {if E::User()->getProfileName()}{E::User()->getProfileName()}
 									            {else}
-									    <span class="user-no-login">{$aLang.your_login} {E::User()->getDisplayName()}</span> 	
-										<p><a href="{router page='settings'}profile/">{$aLang.add_name}</a></p>
-									{/if}
-								    
-									
+									        {$aLang.your_login} {E::User()->getDisplayName()}
+								        {/if}
+								    </span> 
+								    <p><a href="{router page='settings'}profile/">{$aLang.add_name}</a></p>
 
 									{* Подпись "О себе" *}
 									<div class="user-full-name td-hover-desc">
