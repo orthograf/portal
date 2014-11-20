@@ -29,13 +29,16 @@
 
             {include file="menus/menu.main.tpl"}
 
-            <li class="right last search">
-                <form action="{router page='search'}topics/" class="form">
-                    <label>
-                        <input placeholder="{$aLang.search|mb_strtolower}" type="text" maxlength="255" name="q"/>
-                    </label>
-                </form>
-            </li>
+            <li class="right last search search-nav">
+				<form action="{router page='search'}topics/" class="form navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input type="text" maxlength="255" name="q" class="form-control" placeholder="{$aLang.search|mb_strtolower}">
+					</div>
+					<button class="btn btn-default btn-nav" type="submit">
+						<i class="fa fa-search"></i>
+					</button>
+				</form>
+			</li>
 
             {hook run='header_top_end'}
 
