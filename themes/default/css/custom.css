@@ -14,10 +14,6 @@ body {
   max-height: 36px;
 }
 
-.menu-level-2 li.menu-level-2-logo a img {
-  margin-top: -9px;
-}
-
 .logo-name {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 28px;
@@ -86,6 +82,7 @@ body {
 
 .menu-level-2 {
   height: 55px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .menu-level-2 li.menu-level-2-logo {
@@ -105,11 +102,16 @@ body {
 .menu-level-2 li a {
   height: 55px;
   line-height: 62px;
+  font-size: 18px;
 }
 
 .menu-level-2 li a i {
   margin-right: 15px;
   margin-left: -5px;
+}
+
+.menu-level-2 li.menu-level-2-logo a img {
+  margin-top: -9px;
 }
 
 .menu-level-3-container {
@@ -180,3 +182,13 @@ body {
 .td-reorder { td-reorder" style="padding:0;border-top: none; }
 .td-reorder div { position: absolute; }
 .td-reorder i { color: #afafaf;font-size: 21px; padding: 3px 0px 0px 10px; }
+
+.user-info .user-name .user-login {
+  font-size: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.user-no-login {
+  font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
