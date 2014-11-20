@@ -11,9 +11,9 @@
 			<tr>
 				<td style="padding: 26px 0px 25px 30px; line-height: 5px; background: #F3F3F3;" width="564" colspan="2">
 				<h1>
-					<a style="font-size: 23px; color: #6E6B92; text-decoration: none;" href="http://orthograf.ru">Слово - изографам</a>
+					<a style="font-size: 23px; color: #6E6B92; text-decoration: none;" href="{Config::Get('path.root.url')}">{Config::Get('view.name')}</a>
 				</h1>
-				<p style="font-size: 14px; color: #b4b4b4;">Православный Иконописный Портал</p>
+				<p style="font-size: 14px; color: #b4b4b4;">{Config::Get('view.description')}</p>
 				</td>
 			</tr>
 			
@@ -56,7 +56,7 @@
 							Отписаться от новых комментариев к этой теме
 						</a>						
 					{/if}
-					<br><a href="http://orthograf.ru/settings/tuning/" style="color: #6e6b92; font-size: 12px;">Настройка уведомлений на E-Mail</a>
+					<br><a href="{Config::Get('path.root.url')}settings/tuning/" style="color: #6e6b92; font-size: 12px;">Настройка уведомлений на E-Mail</a>
 				</td>
 			</tr>
 			
@@ -64,7 +64,7 @@
 				<td style="padding: 30px"; width="289">
 				&nbsp;</td>
 				<td>
-				<a href="http://orthograf.ru" style="color: #b4b4b4 !important; text-decoration: none;">© Портал "Слово - изографам"</a></td>
+				<a href="{Config::Get('path.root.url')}" style="color: #b4b4b4 !important; text-decoration: none;">© {Config::Get('view.name')}</a></td>
 			</tr>
 		</table>
 		</td>
