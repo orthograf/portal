@@ -7,15 +7,13 @@
         <div class="panel panel-default sidebar raised widget widget-blog">
             <div class="panel-body">
 			
-			<div style="margin: 5px 5px 15px;">	
+			<div style="margin: 5px 5px 15px; text-align: center;">	
                 <img class="user-logo" src="{$oBlog->getAvatarPath(200)}" alt="{$oBlog->getTitle()}" style="border: 1px solid #DBDBDB; padding: 3px;"/>
-	        </div>
-			
-                <div style="text-align: center;">
-                    <h4 class="panel-header">
-                        <a href="{$oBlog->getUrlFull()}">{$oBlog->getTitle()|escape:'html'}</a>
-                    </h4>
-                </div>
+	        </div>	
+                
+				<h4 class="panel-header">
+					<a href="{$oBlog->getUrlFull()}">{$oBlog->getTitle()|escape:'html'}</a>
+				</h4>
 
                 <div class="panel-content">
                     <ul class="marked-list no-images">
