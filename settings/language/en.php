@@ -15,6 +15,7 @@
  */
 
 return array(
+	'index' = 'Home',
     'footer_menu_user_quest_title'         => 'You can',
     'footer_menu_navigate_title'           => 'Sections',
     'footer_menu_navigate_info'            => 'Information',

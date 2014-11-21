@@ -25,13 +25,11 @@
             </h3>
 
             <div class="topic-info">
-                <span class="topic-blog">
-                    <a class="link link-lead link-blue" href="{$oBlog->getUrlFull()}">{$oBlog->getTitle()|escape:'html'}</a>
-                </span>
-                <span class="topic-date-block">
+                {include file="commons/common.breadcrumbs.tpl"}
+                {* <span class="topic-date-block">
                     <span class="topic-date">{$oTopic->getDate()|date_format:'d.m.Y'}</span>
                     <span class="topic-time">{$oTopic->getDate()|date_format:"H:i"}</span>
-                </span>
+                </span> *}
                 {if !$bPreview}
                     <span class="pull-right topic-top-controls">
                         {if E::IsAdmin() OR E::UserId()==$oTopic->getUserId() OR E::UserId()==$oBlog->getOwnerId() OR $oBlog->getUserIsAdministrator() OR $oBlog->getUserIsModerator()}

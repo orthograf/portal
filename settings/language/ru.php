@@ -16,6 +16,7 @@
 
 
 return array(
+	'index' = 'Главная',
     'footer_menu_user_quest_title' => 'Вы можете',
     'footer_menu_navigate_title' => 'Разделы',
     'footer_menu_navigate_info' => 'Информация',
