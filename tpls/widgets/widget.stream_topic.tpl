@@ -19,7 +19,7 @@
                     <li class="user-block">
                         <img src="{$oUser->getAvatarUrl(20)}" alt="{$oUser->getDisplayName()}"/>
                         <a class="userlogo link link-dual link-lead link-clear" href="{$oUser->getProfileUrl()}">
-                            {$oUser->getDisplayName()}
+                            {if $oUser->getProfileName()}{$oUser->getProfileName()}{else}{$oUser->getDisplayName()}{/if}
                         </a>
                     </li>
                     <li class="date-block">
