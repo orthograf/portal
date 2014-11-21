@@ -144,6 +144,8 @@ blockquote {
   color: #fff;
 }
 
+/* ------ MENUS ------ */
+
 .menu-level-2 {
   height: 55px;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -184,12 +186,25 @@ blockquote {
 }
 
 .menu-level-3 li:before {
+  font-size: 14px;
   color: #fff;
 }
 
 .menu-level-3 li a {
   color: #fff;
 }
+
+.content .raised:after {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+}
+
+
+/* ------ INDEX PANEL ------ */
+
+.index-panel {}
 
 .panel {
   border: 1px solid;
@@ -205,18 +220,6 @@ blockquote {
   border-left: 1px solid rgb(226, 226, 226);
   box-shadow: none;
 }
-
-.content .raised:after {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-
-}
-
-
-/* ------ INDEX PANEL ------ */
-
-.index-panel {}
 
 .table-in { margin-bottom: 0px; }
 
