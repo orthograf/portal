@@ -186,11 +186,11 @@ blockquote {
 }
 
 .menu-level-3 li:before {
-  font-size: 14px;
   color: #fff;
 }
 
 .menu-level-3 li a {
+  font-size: 14px;
   color: #fff;
 }
 
